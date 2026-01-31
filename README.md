@@ -1,21 +1,21 @@
-# Portfolio Website
+# Personal Portfolio Website
 
 This is a simple personal portfolio website built using **HTML** and **CSS**.  
 The project is currently **under development** and will be updated over time.
 
 > ⚠️ The website currently uses **minimal CSS styling** and focuses mainly on structure and content.
-
-## 🚀 How to View the website
 <!--
+## 🚀 How to View the website
+
 ```
    https://paulbinojoseph.github.io/Basic-HTML-Website/
   ```
   -->
-
-  [![Visit Website](https://img.shields.io/badge/Visit-Website-blue)](https://paulbinojoseph.github.io/Basic-HTML-Website/)
+<!--
+  [![Visit Website](https://img.shields.io/badge/Visit-Website-blue)](https://paulbinojoseph.github.io/personal-portfolio-website/) -->
 
 ## 🚀 Features
-- Responsive layout (basic)
+- Responsive layout 
 - Simple and clean design
 - About section
 - Projects section
@@ -27,12 +27,11 @@ The project is currently **under development** and will be updated over time.
 - CSS3
 
 ## 📖 Project Source
-This project is based on the **Basic HTML Website** project from [roadmap.sh](https://roadmap.sh/projects/basic-html-website).
+This project is based on the **Personal Portfolio** project from [roadmap.sh](https://roadmap.sh/projects/portfolio-website).
 
 
 <!--## 📂 Project Structure
 -->
 
-<!--
 ## 📌 Status
-🟡 Work in Progress -->
+🟡 Work in Progress 
