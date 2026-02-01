@@ -21,7 +21,7 @@ nav{
   margin-bottom: 10px;
 }
 
-main {
+.main-section-one, .articles {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
@@ -44,24 +44,24 @@ content: "- ";
 border: 1px solid black;
 padding:10px
 }
-#projects {
-  grid-column: 1;
-}
+.articles>article{
+  border:1px solid black;
+  padding:10px;
+  border-radius:30%;
 
-#experience {
-  grid-column: 2;
 }
-
-#education {
-  grid-column: 3;
+.reviews > h2{
+margin-left: 10px;
 }
-
-#reviews {
-  grid-column: 1 / -1;
+footer > h3{
+  text-align: center;
 }
-
 @media (max-width: 768px) {
-  main {
+  .main-section-one, .articles {
     grid-template-columns: 1fr;
+  }
+
+  #projects, #experience, #education, #reviews{
+    grid-column: auto;
   }
 }
