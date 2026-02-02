@@ -11,7 +11,7 @@ nav{
  justify-content: center;
  align-items: center;
  flex-direction: column;
- height: 200px;
+ height: 300px;
 }
 .hero > p {
   color: grey;
@@ -21,14 +21,24 @@ nav{
   margin-bottom: 10px;
 }
 
-.main-section-one, .articles {
+.main-section-one {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+ border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 100%;
+}
+.articles{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:1rem;
+  margin-left:2rem ;
+  margin-right:2rem;
 }
 
 #projects > ul{
   list-style-type:none;
+  padding-left: 1px;
 }
 
 .dash-list{
@@ -40,18 +50,29 @@ content: "- ";
 }
 
 
-#projects, #experience, #education{
-border: 1px solid black;
-padding:10px
-}
-.articles>article{
-  border:1px solid black;
-  padding:10px;
-  border-radius:30%;
+ #experience{
+border-left: 3px solid black;
+border-right: 3px solid black;
+padding:20px
 
 }
-.reviews > h2{
-margin-left: 10px;
+#projects, #education{
+  padding:20px;
+}
+.articles>article{
+  border:3px solid black;
+  padding:10px;
+  border-radius:30%;
+  padding: 2rem;
+
+}
+#reviews > h2{
+margin-left: 20px;
+}
+hr{
+  height: 3px;
+  background-color: black;
+  border:none;
 }
 footer > h3{
   text-align: center;
