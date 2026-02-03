@@ -4,6 +4,10 @@ This is a simple personal portfolio website built using **HTML** and **CSS**.
 The project is currently **under development** and will be updated over time.
 
 > ⚠️ The website currently uses **minimal CSS styling** and focuses mainly on structure and content.
+
+> 📢 **Important Note:** The content of this website is **fictional** and is intended **solely for demonstration purposes**. It does not represent a real person, business, or organization.
+
+
 <!--
 ## 🚀 How to View the website
 
