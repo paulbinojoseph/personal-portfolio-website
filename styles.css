@@ -69,6 +69,13 @@ padding:20px
 #reviews > h2{
 margin-left: 20px;
 }
+.articles > article > p{
+  margin-bottom: 2px;
+  color: #cccccc;
+}
+.articles > article > span{
+  color: #cccccc;
+}
 hr{
   height: 3px;
   background-color: black;
@@ -77,12 +84,74 @@ hr{
 footer > h3{
   text-align: center;
 }
+
+@media (max-width: 768px){
+  nav{
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .nav-links{
+    font-size: 0.9rem;
+  }
+}
 @media (max-width: 768px) {
-  .main-section-one, .articles {
+  .main-section-one{
     grid-template-columns: 1fr;
+    border-left: none;
+    border-right: none;
   }
 
-  #projects, #experience, #education, #reviews{
+  .articles{
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 1rem;
+    }
+#experience{
+  border-left: none;
+  border-right: none;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+  /* #projects, #experience, #education, #reviews{
     grid-column: auto;
+  } */
+}
+
+@media (max-width: 768px){
+  #projects ul li{
+padding: 0.75rem;
+background-color: #e9ecef;
+  }
+    #projects ul hr{
+      margin:0;
+    }
+
+    #experience > article{
+      background-color: #e9ecef;
+    }
+}
+
+@media (max-width: 768px){
+  
+  .articles > article{
+    border-radius: 12px;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px){
+  #projects, #experience, #education{
+    padding: 1rem;
+  }
+  #reviews h2{
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 2rem 1rem;
   }
 }
