@@ -20,6 +20,17 @@ nav{
 .hero > h1{
   margin-bottom: 10px;
 }
+a{
+  text-decoration: none;
+}
+.comic-sans{
+
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+
+
+}
 
 .main-section-one {
   display: grid;
@@ -49,6 +60,10 @@ nav{
 content: "- ";
 }
 
+#experience > article > a{
+ margin-bottom: 18px;
+ display: inline-block;
+}
 
  #experience{
 border-left: 3px solid black;
